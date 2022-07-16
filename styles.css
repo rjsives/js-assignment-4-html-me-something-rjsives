@@ -48,18 +48,20 @@
     animation: glow 1.5s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes glow {
+@keyframes glow {
     from {
-      text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #e60073, 0 0 8px #e60073, 0 0 10px #e60073, 0 0 12px #e60073, 0 0 14px #e60073;
+      text-shadow: 0 0 .5px #fff, 0 0 1px #fff, 0 0 1.5px #e60073, 0 0 2px #e60073, 0 0 3px #e60073, 0 0 5.5px #e60073, 0 0 7px #e60073;
     }
     
     to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #ffde4d, 0 0 15px hsl(56, 94%, 58%), 0 0 20px hsl(56, 88%, 52%), 0 0 25px hsl(56, 92%, 53%), 0 0 30px hsl(56, 94%, 53%), 0 0 35px hsl(56, 93%, 49%);
+      text-shadow: 0 0 1px #fff, 0 0 1.5px #ffde4d, 0 0 2px hsl(56, 94%, 58%), 0 0 4px hsl(56, 88%, 52%), 0 0 6px hsl(56, 92%, 53%), 0 0 8px hsl(56, 94%, 53%), 0 0 9px hsl(56, 93%, 49%);
     
 
   }
+
 }
  
+
 
 
 .fallish-paragraph {
