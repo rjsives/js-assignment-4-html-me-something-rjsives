@@ -1,4 +1,8 @@
 
+.funParagraph {
+    color: green;
+}
+
 .wintry-paragraph {
     position: relative;
     bottom: 50px;
@@ -132,6 +136,7 @@ img {
 }
 
 
+
 #thumbs {   
     width: 1200px;
     margin-top:90px;
@@ -157,6 +162,8 @@ img {
     
 body {
     background:rgb(0, 0, 0);
+    margin: 8px;
+    display: block;
     }
     
     h1 {
@@ -177,6 +184,17 @@ body {
         font-size: 60px;
         color: rgb(242, 245, 255);
         text-shadow: 2px 2px 2px #53555b, 3px 3px 2px #252529,4px 4px 2px #000000;
+    }
+
+    #mainHeader{
+        text-align: center;
+        font-family: Georgia;
+        font-style:italic;
+        font-weight: normal;
+        font-size: 60px;
+        color: red;
+        text-shadow: 2px 2px 2px #53555b, 3px 3px 2px #252529,4px 4px 2px #000000;
+    
     }
     
     p {
@@ -209,4 +227,5 @@ body {
         -webkit-transition: all 0.2s ease-in;
         transition: all 0.2s ease-in;
     }
+
     
