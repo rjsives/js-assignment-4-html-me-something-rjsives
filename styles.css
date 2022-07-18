@@ -93,9 +93,7 @@
     margin-left: 75px;
 }
 
-.funParagraph {
-    color:rgb(253, 236, 110);
-}
+
 
 .spring-bg {
     background-image: url(images/dogwood.JPG);
@@ -226,6 +224,10 @@ body {
         -o-transition: all 0.2s ease-in;
         -webkit-transition: all 0.2s ease-in;
         transition: all 0.2s ease-in;
+    }
+
+    .funParagraph {
+        color: green
     }
 
     
