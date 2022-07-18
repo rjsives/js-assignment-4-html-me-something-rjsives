@@ -1,7 +1,5 @@
 
-#testP.funParagraph {
-    color: green;
-}
+
 
 
 .wintry-paragraph {
@@ -96,6 +94,10 @@
     text-align:left;
     color: rgb(151, 168, 175);
     margin-left: 75px;
+}
+
+.funParagraph {
+    color:green;
 }
 
 .spring-bg {
